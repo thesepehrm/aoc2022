@@ -8,10 +8,6 @@ import (
 	"github.com/thesepehrm/aoc2022/day7/fs"
 )
 
-func process(line string) {
-
-}
-
 func main() {
 	readFile, _ := os.Open("input.txt")
 	fileScanner := bufio.NewScanner(readFile)
